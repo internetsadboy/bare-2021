@@ -1,0 +1,170 @@
+* {
+  font-family: coolvetica;
+  letter-spacing: 2px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+input, button {
+  height: 60px !important;
+}
+
+#home-page #title-deo-diff {
+  font-size: x-large;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#story-page > .container {
+  margin-top: 40px;
+}
+
+#contact-page > .container > p {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+#contact-page > .container a {
+  color: black;
+  font-size: xxx-large;
+  text-decoration: none;
+  border-bottom: 4px solid black;
+  padding-bottom: 4px;
+}
+
+#contact-page > .container a:hover {
+  color: white;
+  background: black;
+  text-decoration: none;
+}
+
+.text-md {
+  font-size: 20px;
+}
+
+.text-kickstarter,
+.text-kickstarter > a {
+  font-family: courier;
+}
+
+.text-kickstarter > a {
+  background-color: #05CE78;
+  color: yellow;
+  padding: 4px 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.text-kickstarter > span {
+  font-size: 27px;
+  font-family: monospace;
+  font-weight: 800;
+}
+
+.logo-alt {
+  color: white;
+  background: black;
+  padding: 25px;
+}
+
+#product-description > span {
+  font-size: 2.5em;
+  font-weight: 200;
+  margin: 0px 15px;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 300px !important;
+}
+
+form input, button {
+    width: 100%;
+}
+
+.form-field input {
+  width: -webkit-fill-available;
+  background: white;
+  color: black;
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, .12);
+  border: 0;
+  outline: 0;
+  padding-left: 20px;
+  letter-spacing: 2;
+  font-weight: 300;
+  font-size: 18;
+}
+
+.form-field button {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  outline: 0;
+  border-radius: 2;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .08);
+  color: white;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  width: -webkit-fill-available;
+}
+
+.title-2 {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+footer {
+  margin-bottom: 35px !important;
+}
+
+@media (max-width: 800px) {
+  #contact-page > .container a {
+    font-size: xx-large;
+  }
+  .container {
+    margin-top: 35px;
+  }
+
+  form {
+    padding: 0 15px;
+    width: auto !important;
+    font-size: 24px !important;
+  }
+
+  input, button {
+    height: 60px !important;
+    font-size: 18px !important;
+  }
+
+  input {
+    padding-left: 15px !important;
+  }
+
+  button {
+    font-size: 24px !important;
+  }
+
+  .title-2 {
+    padding-left: 20px;
+  }
+
+  .product-img {
+    margin-bottom: 20px;
+  }
+  #product-description {
+    display: block;
+  }
+  #product-description > span {
+    display: block;
+  }
+}

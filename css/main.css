@@ -62,6 +62,7 @@ input, button {
   padding: 4px 5px;
   text-decoration: none;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .text-kickstarter > span {
@@ -128,9 +129,14 @@ footer {
 }
 
 @media (max-width: 800px) {
+  body {
+    margin-bottom: 50px;
+  }
+
   #contact-page > .container a {
     font-size: xx-large;
   }
+
   .container {
     margin-top: 35px;
   }
@@ -158,13 +164,32 @@ footer {
     padding-left: 20px;
   }
 
+  .logo-alt {
+    padding: 6px 10px;
+  }
+
+  .text-kickstarter > span {
+    font-size: 18px;
+  }
+
   .product-img {
     margin-bottom: 20px;
   }
+
   #product-description {
     display: block;
   }
+
   #product-description > span {
     display: block;
+  }
+
+  #ingredients-list {
+    padding: 0 25px;
+  }
+
+  #ingredients-list .columns {
+    text-align: left;
+    font-size: 24px;
   }
 }

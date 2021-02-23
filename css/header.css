@@ -144,8 +144,7 @@ header {
         padding: 20px;
     }
     #header ul li a:hover {
-        color: #000;
-        background: #fff;
+        border-bottom: 2px solid #fff;
     }
     .nav__icon,
     .nav__icon .bar {
